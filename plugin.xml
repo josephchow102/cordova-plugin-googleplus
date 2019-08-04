@@ -81,6 +81,11 @@
       </array>
     </config-file>
 
+    <!-- Google frameworks -->
+    <!-- Downloaded here: https://developers.google.com/identity/sign-in/ios/sdk/ (changelog: https://developers.google.com/identity/sign-in/ios/release) -->
+    <framework src="src/ios/libs/GoogleSignIn.framework" custom="true" />
+    <framework src="src/ios/libs/GoogleUtilities.framework" custom="true" />
+
     <!-- System frameworks -->
     <framework src="AddressBook.framework" weak="true" />
     <framework src="CoreText.framework" weak="true" />
